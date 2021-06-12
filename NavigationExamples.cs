@@ -37,7 +37,6 @@ public class NavigationExamples
             Console.WriteLine("That's not the wrong string!");
         }
 
-        //
         Console.WriteLine(someStringWihtALongNaem);
     }
 }
