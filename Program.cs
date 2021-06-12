@@ -8,8 +8,8 @@ navigation.AnotherImportantFunction();
 Console.WriteLine(navigation.SomeFloat);
 
 // Another example!
-// string someString = Some.Json.Library.StringUtils.ToSnakeCase("TestString"); // Outputs "test_string"
-// Console.WriteLine(navigation.SomeFloat);
+string someString = Some.Json.Library.StringUtils.ToSnakeCase("TestString"); // Outputs "test_string"
+Console.WriteLine(navigation.SomeFloat);
 
 ////////////////////////////////////////////// 
 // Putting it all together
@@ -18,3 +18,4 @@ Console.WriteLine(navigation.SomeFloat);
 // string smileyString = EditingExamples.EnumToSmileyFace(EditingExamples.EnumExample.C);
 // Console.WriteLine(smileyString);
 
+ 
