@@ -4,10 +4,10 @@ public class SelectionExamples
 {
     public void SimpleMultilineEditing()
     {
-        Console.WriteLine("This is a line of code!");
-        Console.WriteLine("This is a line of code!");
-        Console.WriteLine("This is a line of code!");
-        Console.WriteLine("This is a line of code!");
+        Console.Write("This is a line of code!");
+        Console.Write("This is a line of code!");
+        Console.Write("This is a line of code!");
+        Console.Write("This is a line of code!");
     }
 
     public void SelectingSymbols()
