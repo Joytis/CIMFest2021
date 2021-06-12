@@ -2,35 +2,39 @@ using System;
 
 public class EditingExamples
 {
-    public enum EnumExample
+    void LineOrdering()
     {
-        A,
-        B,
-        C,
-        D
+        // This prints a variable we don't have yet oh no!
+        Console.WriteLine(someVariable);
+
+        // We need to move this up a bit!
+        string someVariable = "this is a string!";
     }
 
-    // public string ExampleA(EnumExample)
-
-    public static string EnumToSmileyFace(EnumExample enumExample)
+    void SpicyCopyPaste()
     {
-        // We want the stringized enum and a smileyface!
-        
-        return ":c";
+        string thisIsaMEANString = "some string";
+        int thisIsaMEANInt = 0;
+        float thisIsaMEANFloat = 0.0f;
+        double thisIsaMEANDouble = 0.0;
+
+        // We want to print these here!
+
     }
-}
-
-
-
-// public string EnumToSmileyFaceBackup(EnumExample enumExample)
-// {
-//     switch(enumExample)
-//     {
-//         case EnumExample.A: return "A :D";
-//         case EnumExample.B: return "B :D";
-//         case EnumExample.C: return "C :D";
-//         case EnumExample.D: return "D :D";
-//     }
     
-//     return ":c";
-// }
+    void CodeSnippets()
+    {
+        // We want a for loop here!
+    }
+
+    void UsingExtensions()
+    {
+        int zero = 0;
+        int one = 0;
+        int two = 0;
+        int three = 0;
+        int four = 0;
+        int five = 0;
+    }
+
+}
